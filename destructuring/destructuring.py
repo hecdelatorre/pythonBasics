@@ -9,9 +9,9 @@ j = numbers()[1]
 k = numbers()[2]
 print('Numbers A ->', i, j, k)
 
-a = numbers()
-print('Numbers B ->', a)
-print('Numbers C ->', a[0], a[1], a[2])
+n = numbers()
+print('Numbers Tuple ->', n)
+print('Numbers B ->', n[0], n[1], n[2])
 
 # Apply destructuring
 [n, t, r] = numbers()
