@@ -14,7 +14,7 @@ print('Numbers Tuple ->', n)
 print('Numbers B ->', n[0], n[1], n[2])
 
 # Apply destructuring
-[n, t, r] = numbers()
+(n, t, r) = numbers()
 print('Numbers Destructuring ->', n, t, r)
 
 ages = [17, 18, 19]
